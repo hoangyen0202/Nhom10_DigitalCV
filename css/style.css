@@ -15,13 +15,12 @@ body {
 }
 
 .intro-left {
-  max-width: 45%;
+  max-width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: center; 
+  text-align: center;   
 }
-
 
 .intro-left .logo img {
   width: 150px;
@@ -35,7 +34,7 @@ body {
   margin: 10px 0;
   font-family: 'Quicksand', sans-serif;
   text-shadow:
-    2px 2px 3px rgba(0,0,0,0.6),
+    2px 2px 3px rgba(0,0,0,0.6),       
     0 0 10px rgba(255,255,255,0.4); 
 }
 
@@ -51,8 +50,8 @@ body {
 
 .intro-right .group-image {
   width: 700px;
-  height: 650px;
-  object-fit: cover;
+  height: 650px;      
+  object-fit: cover;  
   margin-right: -40px;
   border-radius: 0;
   box-shadow: none;
@@ -70,7 +69,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 50px;
 }
 
 .icon-title {
@@ -79,10 +78,74 @@ body {
 
 .members-container {
   display: flex;
-  justify-content: center;
-  gap: 30px;
+  justify-content: center; 
+  gap: 60px;
   flex-wrap: wrap;
   margin-top: 50px; 
+  position: relative;
+}
+
+.capy-img {
+  position: absolute;
+  top: -50px;         
+  left: 40px;         
+  width: 120px;
+  height: auto;
+  z-index: 1;         
+  pointer-events: none; 
+}
+
+.donut-img {
+  position: absolute;
+  top: 120px;       
+  right: 40px;         
+  width: 120px;
+  height: auto;
+  z-index: 1;         
+  pointer-events: none;
+  transform: rotate(-30deg);
+}
+
+.donut_y-img {
+  position: absolute;
+  top: 80px;        
+  left: 220px;         
+  width: 80px;
+  height: auto;
+  z-index: 1;         
+  pointer-events: none; 
+  transform: rotate(-20deg);
+}
+
+.donut_t-img {
+  position: absolute;
+  top: -30px;         
+  right: 200px;        
+  width: 110px;
+  height: auto;
+  z-index: 1;        
+  pointer-events: none; 
+  transform: rotate(20deg);
+}
+
+.donutsayhi-img {
+  position: absolute;
+  top: 300px;        
+  left: 20px;         
+  width: 170px;
+  height: auto;
+  z-index: 1;         
+  pointer-events: none; 
+}
+
+.capybaracute-img {
+  position: absolute;
+  top: 300px;      
+  right: 50px;    
+  width: 180px;
+  height: auto;
+  z-index: 1;        
+  pointer-events: none; 
 }
 
 .members-container a {
@@ -90,7 +153,7 @@ body {
   padding: 10px 20px;
   background-color: #5d5c5c;
   color: white;
-  text-decoration: none;
+  text-decoration: none; 
   border-radius: 25px;
   font-weight: bold;
   margin-top: 10px;
@@ -110,22 +173,22 @@ body {
   text-align: center;
   width: 200px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  position: relative;
+  position: relative; 
   z-index: 0;
 }
 
 .member-card:hover {
-  transform: translateY(-15px);
+  transform: translateY(-15px); 
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
   z-index: 10;
 }
 
 .member-card img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-  object-fit: cover;
+  width: 150px;           
+  height: 150px;          
+  border-radius: 50%;      
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);  
+  object-fit: cover;      
   display: block;
   margin: 0 auto; 
 }
@@ -136,7 +199,7 @@ body {
   padding: 10px 16px;
   background: #5d5c5c;
   color: #fff !important;
-  text-decoration: none;
+  text-decoration: none; 
   border: none;
   border-radius: 6px;
   font-size: 16px;
@@ -149,12 +212,12 @@ body {
 
 .cv-link:hover {
   background-color: #3e3d3d;
-  text-decoration: none;
+  text-decoration: none; 
 }
 
 .logo {
   position: relative;
-  width: 50%;
+  width: 50%;           
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -162,22 +225,22 @@ body {
 
 .decor-container {
   position: relative;
-  width: 65vw;
+  width: 65vw; 
   height: auto;
 }
 
 .decor-img {
-  width: 89.9%;
-  height: 150px;
+  width: 87.9%;
+  height: 150px; 
   position: absolute;
-  top: -145px;
+  top: -134.8px;
   left: 0;
   z-index: 0;
   opacity: 1;
 }
 
 .logo-img {
-  width: 100px !important;
+  width: 120px !important;   
   height: auto;
   position: relative;
   z-index: 2;
